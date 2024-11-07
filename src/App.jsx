@@ -2,12 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/home";
 import { ToastContainer } from "react-toastify";
 import NavBar from "./components/navbar";
-
-import "react-toastify/dist/ReactToastify.css";
 import AllPosts from "./pages/allPosts";
 import SinglePost from "./pages/singlePost";
 import EditPost from "./pages/editPost";
 import UsersPage from "./pages/users";
+
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
   return (
